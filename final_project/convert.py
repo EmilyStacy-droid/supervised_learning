@@ -12,3 +12,5 @@ python_script, _ = python_exporter.from_notebook_node(notebook_content)
 # Save the Python script
 with open("part_1.py", "w") as f:
     f.write(python_script)
+
+
